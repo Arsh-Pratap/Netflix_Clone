@@ -20,7 +20,12 @@
     .container {
         max-width: 95%;
     }
-
+    .features {
+        
+    height: fit-content;
+    padding-block: 10px;
+        
+    }
 
 
 }
