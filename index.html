@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2f5cad6e8d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css">
+  </head>
+
+  <body>
+    <!-- header -->
+
+    <header>
+      <!-- Navbar -->
+      <div class="bg-cover"></div>
+      <nav>
+        <div class="container flex navbar">
+          <div class="logo">
+            <a href="#"><img src="./assets/Netflix_Logo_PMS.png" alt="" /></a>
+          </div>
+          <div class="links">
+            <ul class="flex">
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-globe icon"></i>
+                 <span> English</span>
+                  <i class="fa-solid fa-caret-down icon"></i>
+                </a>
+              </li>
+              <li><a href="#" id="signin-btn">Sign In</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+
+      <div class="hero flex">
+        <div class="container flex content">
+          <h1>Unlimited movies, TV shows and more.</h1>
+          <p>Watch anywhere. Cancel anytime.</p>
+          <p>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="mini-form flex">
+            <input type="email" id="email-input" placeholder="Email Address" />
+            <a href="www.google.com" class="primary-button">
+              Get Started
+              <i class="fa-solid fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Features section -->
+    <div class="features-section">
+      <section>
+        <div class="container flex features">
+          <div class="left">
+            <h1>Enjoy on your TV.</h1>
+            <p>
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </p>
+          </div>
+          <div class="right  gif-container">
+            <div class="gif">
+              <img
+                class="vid-img"
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                alt=""
+              />
+              <video
+                class="vid"
+                data-uia="nmhp-card-animation-asset-video"
+                autoplay=""
+                playsinline=""
+                muted=""
+                loop=""
+              >
+                <source
+                  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 2nd -->
+      <section>
+        <div class="container flex features">
+          <div class="right ">
+            <img
+              class="girl-img"
+              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+              alt=""
+            />
+          </div>
+          <div class="left">
+            <h1>Download your shows to watch offline.</h1>
+            <p>
+              Save your favourites easily and always have something to watch.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 3rd -->
+      <section>
+        <div class="container flex features">
+          <div class="left">
+            <h1>Watch everywhere.</h1>
+            <p>
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </p>
+          </div>
+          <div class="right  gif-container">
+            <div class="gif2">
+              <div class="full">
+                <img
+                  class="vid-img2"
+                  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
+                  alt=""
+                  style="z-index: 2;"
+                />
+
+                <video
+                  class="vid2"
+                  data-uia="nmhp-card-animation-asset-video"
+                  autoplay=""
+                  playsinline=""
+                  muted=""
+                  loop=""
+                >
+                  <source
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 4th -->
+      <section>
+        <div class="container flex features">
+          <div class="right ">
+            <img
+              class=""
+              src="https://occ-0-3752-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420"
+              alt=""
+            />
+          </div>
+          <div class="left">
+            <h1>Create profiles for children.</h1>
+            <p>
+              Send children on adventures with their favourite characters in a
+              space made just for them—free with your membership.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Frequently Asked Quesion section -->
+
+    <section>
+      <div class="container flex question-cards">
+        <h1>Frequently Asked Questions</h1>
+        <a href="#" class="card-btn flex">
+          What is Netflix?
+          <i class="fa-regular fa-plus"></i>
+        </a>
+        <a href="#" class="card-btn flex">
+          How much does Netflix cost?
+          <i class="fa-regular fa-plus"></i>
+        </a>
+        <a href="#" class="card-btn flex">
+          Where can I watch?
+          <i class="fa-regular fa-plus"></i>
+        </a>
+        <a href="#" class="card-btn flex">
+          How do I cancel?
+          <i class="fa-regular fa-plus"></i>
+        </a>
+        <a href="#" class="card-btn flex">
+          What can I watch on Netflix?
+          <i class="fa-regular fa-plus"></i>
+        </a>
+        <a href="#" class="card-btn flex">
+          Is Netflix good for kids?
+          <i class="fa-regular fa-plus"></i>
+        </a>
+        <div class="cta">
+          <p>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="mini-form flex">
+            <input type="email" id="email-input" placeholder="Email Address" />
+            <a href="www.google.com" class="primary-button">
+              Get Started
+              <i class="fa-solid fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section>
+      <div class="container flex footer">
+        <p>Questions? Call <a href="#"> 000-800-919-1694</a></p>
+
+        <div class="footer-links flex">
+          <div class="column flex">
+            <a href="#">FAQ</a>
+            <a href="#">Account</a>
+            <a href="#">Jobs</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Only on Netflix</a>
+          
+            <a href="#">Gift Card Terms</a>
+            <a href="#">
+              Media Centre</a>
+            <a href="#">
+              Ways to Watch</a>
+            <a href="#">
+              Cookie Preferences</a>
+            <a href="#">
+              Speed Test</a>
+         
+            <a href="#">
+              Help Centre</a>
+            <a href="#">
+              Investor Relations</a>
+            <a href="#">
+              Terms of Use</a>
+            <a href="#">
+              Corporate Information</a>
+            <a href="#">
+              Legal Notices</a>
+          </div>
+        </div>
+
+        <a href="#" class="secondary-button">
+            <i class="fa-solid fa-globe icon"></i>
+            English
+            <i class="fa-solid fa-caret-down icon"></i>
+          </a>
+
+          <p>Netflix India</p>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@500;400;300;600;1000&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Poppins', sans-serif, sans-serif;
+    color: var(--primary-text-color);
+
+
+
+}
+
+body {
+    display: contents;
+}
+
+:root {
+    --padding-inline: 40px;
+    --primary-color: #e50914;
+    --primary-text-color: #fff;
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+
+    line-height: 1.875rem;
+
+
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+
+
+}
+
+
+
+/* Utility Classes */
+.container {
+    max-width: 1250px;
+    padding-inline: var(--padding-inline);
+    margin-inline: auto;
+  overflow: hidden;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.icon {
+    font-size: 1rem;
+    padding-inline: 3px;
+}
+
+.primary-button {
+
+    font-size: 24px;
+    border-radius: 0.25rem;
+    padding: 1rem 2rem;
+    line-height: 24px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+
+}
+.secondary-button{
+    font-size: 1rem;
+    font-family: 'Roboto', 'Poppins', sans-serif, sans-serif;
+    border: #fff 1px solid;
+    border-radius: 0.25rem;
+    padding: 6px 9px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+header {
+    height: 90vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/d049a3bd-40ee-411b-9f16-d1def798d43b/d6aeb5a9-b14c-42d4-999e-c2f0d6c60f04/IN-en-20230313-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    z-index: -1 !important;
+
+
+}
+
+.bg-cover {
+    background: rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -2 !important;
+}
+
+/* Navbar */
+.navbar {
+    padding-top: 10px;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    color: var(--primary-color);
+    width: 200px;
+}
+
+.links ul {
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.links a {
+    font-size: 1rem;
+    font-family: 'Roboto', 'Poppins', sans-serif, sans-serif;
+    border: #fff 1px solid;
+    border-radius: 0.25rem;
+    padding: 6px 9px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+#signin-btn {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Hero Section */
+.hero{
+    align-self: center;
+    justify-content: center;
+    transform: translateY(60%)
+}
+.content {
+    margin: 10px;
+    flex-direction: column;
+    gap: 1.2rem;
+    /* position: absolute;
+    top: 35%;
+    left: 20%; */
+    
+    text-align: center;
+    flex-wrap: nowrap;
+    letter-spacing: 0 !important;
+   
+}
+
+.mini-form {
+    flex-direction: row;
+    gap: 10px;
+    width: 80%;
+    justify-content: center;
+    border-color: #555555;
+    color: #555555;
+    margin-inline: auto;
+}
+
+#email-input {
+    width: 50%;
+    background-color: rgba(22, 22, 22, 0.7);
+    padding: 1rem .5rem 1rem 1rem;
+    line-height: 1.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ffffff;
+}
+
+#email-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+}
+
+/* features section */
+section {
+    background: #000;
+    border-block: 8px solid rgb(35, 35, 35);
+    z-index: -2;
+}
+
+.features {
+    flex-direction: row;
+    height: 438px;
+    margin-block: 40px;
+    gap: 80px;
+
+}
+section:nth-child(2) .features{
+    gap: 20px;
+}
+section:nth-child(4) .features{
+    gap: 20px;
+}
+
+.left h1 {
+    margin-bottom: 15px;
+}
+
+.left p {
+    font-size: 1.35rem;
+    font-weight: 400;
+}
+
+.gif {
+    position: relative;
+    
+
+}
+
+.vid-img {
+    position: absolute;
+    top: 51%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+   
+
+}
+
+.gif2 {
+    position: relative;
+
+}
+
+
+.vid2 {
+
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.vid-img2 {
+    position: sticky;
+}
+
+/* Question  Section */
+.question-cards {
+    flex-direction: column;
+    margin-block: 40px;
+    align-items: flex-start;
+    gap: 10px;
+   
+
+}
+.question-cards h1{
+   
+    margin-inline: auto;
+    padding-bottom: 10px;
+}
+.card-btn {
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    font-size: 1.75rem;
+    font-weight: 400;
+    padding: 1.5rem;
+    border: 1px solid #333333;
+    background-color: #333333;
+    border-radius: 5px;
+
+}
+
+.card-btn i {
+    font-size: 2.5rem;
+}
+.cta{
+    margin: 40px auto;
+    font-size:.75rem ;
+}
+.cta .mini-form{
+    padding-top: 15px;
+}
+
+/* footer Section */
+
+.footer{
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: flex-start;
+    color: #555555;
+    margin-block: 60px;
+
+}
+.footer-links{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.column{
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer a{
+    
+color: rgba(255, 255, 255, 0.7);
+font-size: 1rem
+;
+text-decoration: underline;
+}
+.column a{
+    width: 32%;
+    text-align: left;
+}
+.footer p{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+}
+.secondary-button {
+    text-decoration: none !important;
+}

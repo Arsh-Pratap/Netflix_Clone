@@ -1,0 +1,140 @@
+/* @media screen and (max-width:1313px) {
+    .gif-container{
+    width: 80%;
+    height:80%;
+    }
+
+} */
+
+@media screen and (max-width:1124px) {
+    h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+
+
+
+}
+
+@media screen and (max-width:1115px) {
+    .hero{
+        transform: translateY(25%);
+    }
+    .features {
+        flex-direction: column;
+        text-align: center;
+        height: 110vh;
+    }
+
+    .vid-img {
+        transform: translate(-50%, -50%);
+    }
+
+    .vid {
+        padding-block: 40px;
+    }
+
+    section:nth-child(2) .features {
+        flex-direction: column-reverse;
+    }
+
+    section:nth-child(4) .features {
+        flex-direction: column-reverse;
+    }
+
+    .mini-form {
+        width: 100%;
+    }
+
+    .column a {
+        width: calc(25% - 20px);
+
+
+    }
+
+    .column {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:794px) {
+    .logo img {
+        width: 7.5rem;
+        
+    }
+
+    :root {
+        --padding-inline: 10px;
+    }
+
+    .column a {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .mini-form {
+        flex-direction: column;
+    }
+
+    #email-input {
+        width: 100%;
+    }
+
+    
+    .column a {
+        width: calc(50% - 10px);
+
+    }
+
+    .primary-button {
+        width: fit-content;
+        font-size: 1.25rem;
+        margin: 10px;
+    }
+    span{
+        display: none;
+    }
+    .question-cards a{
+        font-size: 1.5rem
+    }
+    .question-cards i{
+        font-size: 1.5rem
+    }
+
+}
+@media screen and (max-width:415px) {
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+
+    .question-cards a{
+        font-size: 1.25rem
+    }
+    .question-cards i{
+        font-size: 1.25rem
+    }
+    .column a {
+        width: 100%;
+
+    }
+}
