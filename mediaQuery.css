@@ -31,8 +31,11 @@
 }
 
 @media screen and (max-width:1115px) {
-    .hero{
-        transform: translateY(25%);
+     .hero{
+        transform: translateY(25vh);
+    } 
+    header{
+        height: 80vh;
     }
     #img1{
         width: 90%;
@@ -85,10 +88,25 @@
         gap: 20px;
     }
 }
-
-@media screen and (max-width:794px) {
+@media screen and (max-width:648px) {
     .content{
         gap: 10px;
+        transform: translateY(-250%);
+    }
+}
+@media screen and (max-width:794px) {
+    /* header{
+        height: 90vh;
+    } */
+    .hero{
+        transform: translateY(15vh);
+    } 
+    header{
+        height: 70vh;
+    }
+    .content{
+        gap: 10px;
+        transform: translateY(25%);
     }
     .logo img {
         width: 7.5rem;
@@ -105,12 +123,18 @@
 }
 
 @media screen and (max-width:600px) {
+    /* header{
+        height: 60vh;
+    } */
+
     .mini-form {
         flex-direction: column;
     }
-
+    .content{
+        transform: translateY(-10%);
+    }
     #email-input {
-        width: 100%;
+        width: 90%;
     }
 
     

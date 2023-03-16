@@ -161,9 +161,11 @@ header {
 
 /* Hero Section */
 .hero{
-    align-self: center;
-    justify-content: center;
-    transform: translateY(60%)
+   justify-content: center;
+   transform:translateY(25vh);
+   text-align: center;
+  
+
 }
 .content {
     margin: 10px;
@@ -174,11 +176,13 @@ header {
     left: 20%; */
     
     text-align: center;
-    flex-wrap: nowrap;
+
     letter-spacing: 0 !important;
    
 }
-
+.content-center{
+  
+}
 .mini-form {
     flex-direction: row;
     gap: 10px;
