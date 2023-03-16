@@ -31,6 +31,10 @@
     }
     #img1{
         width: 90%;
+       
+    }
+    .f1-heading{
+        margin-bottom: 40px;
     }
     #vid1{max-width: 80%;}
     #img2{width: 90%;}
